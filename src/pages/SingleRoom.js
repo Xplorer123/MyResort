@@ -23,7 +23,7 @@ export default class SingleRoom extends Component {
             return(
                 <div className="error">
                     <h3>no such room could be found</h3>
-                    <Link to='/' className="btn-primary">
+                    <Link to='/rooms' className="btn-primary">
                         back to rooms
                     </Link>
                 </div>
@@ -34,7 +34,7 @@ export default class SingleRoom extends Component {
             <React.Fragment>
                 <StyledHero img={mainImage}>
                     <Banner title={`${room.name} room`}>
-                        <Link to='/' className="btn-primary">
+                        <Link to='/rooms' className="btn-primary">
                             back to rooms
                         </Link>
                     </Banner>
