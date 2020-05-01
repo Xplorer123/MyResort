@@ -2,6 +2,7 @@
   "name": "myresort",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://xplorer123.github.io/myresort",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -15,6 +16,7 @@
     "styled-components": "^5.1.0"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
